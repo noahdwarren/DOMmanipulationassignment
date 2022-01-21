@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPlayerList App</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="displey-4 text-center">My<span class="text-danger">Player</span>List</h1>
+            <form id="player-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="race">Race</label>
+                    <input type="text" id="race" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="job">Job</label>
+                    <input type="text" id="job" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="specialization">Specialization</label>
+                    <input type="text" id="specialization" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="level">level</label>
+                    <input type="text" id="level" class="form-control">
+                </div>
+                <input type="submit" value="Add Player" class="btn btn-primary form-control">
+            </form>
+            <table class="table table-striped mt-5">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Race</th>
+                        <th>Job</th>
+                        <th>Specialization</th>
+                        <th>level</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="player-list"></tbody>
+            </table>
+    </div>
+
+
+
+
+
+
+
+    <script src="DOMassignment.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

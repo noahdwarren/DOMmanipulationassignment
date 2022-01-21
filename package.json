@@ -1,0 +1,23 @@
+{
+  "name": "dommanipulationassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DOMassignment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahdwarren/DOMmanipulationassignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noahdwarren/DOMmanipulationassignment/issues"
+  },
+  "homepage": "https://github.com/noahdwarren/DOMmanipulationassignment#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  }
+}
